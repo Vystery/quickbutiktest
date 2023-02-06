@@ -70,7 +70,7 @@ class Quickbutik extends Command
         arsort($productList);
         $top3 = '';
         $count = 1;
-        foreach($productList as $productId => $total) {
+        foreach ($productList as $productId => $total) {
             $top3 .= $productId . '[' . $total . ']';
             $count++;
             
